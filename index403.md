@@ -26,9 +26,9 @@ title: 403page
             <div class="jumbotron jumbotron-fluid" style="text-align: center; ">
                 <h2>Try Again</h2>
                 <!-- Prompt the user to go back to where they were before 403 page showed -->
-                <a href="javascript:history.back()">Go Back</a>
+                <a href="/AtlasIndex/">Go Back</a>
                 <p>Or</p>
-                <a href="/AtlasIndex/register">Register</a><a> Or </a><a href="/AtlasIndex/signin">Sign in</a>
+                <a href="/AtlasIndex/signup">Register</a><a> Or </a><a href="/AtlasIndex/signin">Sign in</a>
             </div>
         </div>
     </div>
