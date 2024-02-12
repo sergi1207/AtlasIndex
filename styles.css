@@ -2,7 +2,7 @@
 
 .navbar {
     background-color: #cccccc;
-    width: 100%;
+    width: 150%;
 }
 
 #header {
@@ -10,7 +10,7 @@
   left: 0;
   top: 0px;
   height: 60px;
-  width: 100%;
+  width: 150%;
   position: static;
   background: #ffffff;
   border-bottom: 0px solid #bebebe;

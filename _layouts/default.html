@@ -14,6 +14,7 @@
         var signup = document.getElementById("signup");
         var profile = document.getElementById("profile");
         var display = document.getElementById("display");
+        //var display = document.getElementById("searchHouse");
         setInterval(function() {
             var uid = window.localStorage.getItem('uid');
             if (uid != null) {
@@ -21,11 +22,13 @@
                 signup.style.display = "none";
                 signout.style.display = "block";
                 profile.style.display = "block";
+                //searchHouse.style.display = "block";
             } else if (uid == null) {
                 signin.style.display = "block";
                 signup.style.display = "block";
                 signout.style.display = "none";
                 profile.style.display = "none";
+                //searchHouse.style.display = "none";
             }
             if(uid == 'admin'){
                 display.style.display = "block";
