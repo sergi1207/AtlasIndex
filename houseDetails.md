@@ -119,6 +119,7 @@ permalink: /house-details
         const url = `http://localhost:8086/api/house/?address=${encodeURIComponent(address)}&distance=${encodeURIComponent(distance)}&type=${encodeURIComponent("1")}`;
       const requestOptions = {
           method: 'GET',
+          //mode: 'no-cors',
           credentials: 'include'}
             fetch(url, requestOptions)
               .then(response => response.json())
@@ -153,6 +154,7 @@ permalink: /house-details
             var url = `http://localhost:8086/api/house/?address=${encodeURIComponent(params.get('address'))}&type=${encodeURIComponent("2")}`
             const requestOptions = {
               method: 'GET',
+              //mode: 'no-cors',
               credentials: 'include'}
                 fetch(url, requestOptions)
                   .then(response => response.json())

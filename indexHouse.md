@@ -60,6 +60,7 @@ permalink: /house
             const url = `http://localhost:8086/api/house/?address=${encodeURIComponent(address)}&distance=${encodeURIComponent(distance)}&type=${encodeURIComponent("1")}`;
           const requestOptions = {
               method: 'GET',
+              //mode: 'no-cors',
               credentials: 'include'}
                 fetch(url, requestOptions)
                   .then(response => response.json())
