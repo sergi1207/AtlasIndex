@@ -37,8 +37,8 @@ title: Display Houses
         <!-- <script type="module" src="/static/js/api/config.js"></script> -->
         <script>
           // import { uri } from '/static/js/api/config.js';
-          const url = 'http://localhost:8086/api/house/';
-          const authurl = 'http://localhost:8086/api/house/authenticate';
+          const url = 'http://localhost:8090/api/house/';
+          const authurl = 'http://localhost:8090/api/house/authenticate';
           const userAuthBody = window.localStorage.getItem('userBody')
           // prepare HTML result container for new output
           const resultContainer = document.getElementById("result");
